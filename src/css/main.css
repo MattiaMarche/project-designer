@@ -1,0 +1,47 @@
+/**
+ * [GLOBALS]
+ */
+
+:root {
+    --game-bg-light: #F0F3F4;
+    --game-danger-color: #D64800;
+    --game-dark-color: #020202;
+    --game-dark-font: #797979;
+    --game-default-color: #F0F3F4;
+    --game-hover-box-shadow: 0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12);
+    --game-panel-box-shadow: 0 0 10px -5px rgba(0,0,0,.2),0 0 24px 2px rgba(0,0,0,.14),0 0 30px 5px rgba(0,0,0,.12);
+    --game-primary-color: #4285f4;
+    --game-primary-dark: #0759E4;
+    --game-primary-dark-opaque: #0759E455;
+    --game-primary-light: #95BAF9;
+    --game-primary-opaque: #4285f4DD;
+    --game-pure-white: #ffffff;
+    --game-light-font: 'Roboto-Light', sans-serif;
+    --game-normal-font: 'Roboto', sans-serif;
+    --game-success-color: #34a853;
+    --game-thin-font: 'Roboto-Thin', sans-serif;
+    --game-warning-color: #fbbc05;
+    --game-white-color: #fefefe;
+}
+
+#pdn-main,
+#pdn-main div,
+#pdn-main h1,
+#pdn-main h2,
+#pdn-main h3,
+#pdn-main h4,
+#pdn-main h5,
+#pdn-main h6,
+#pdn-main p,
+#pdn-main span {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**
+ * UTILITIES
+ */
+
+.pdn-clearfix {
+    clear: both;
+}
